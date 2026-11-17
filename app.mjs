@@ -31,7 +31,7 @@ function updateTimer() {
     document.querySelector('#timer-heading').textContent = 'finally. come here ♡';
     document.querySelector('.target-date').textContent = 'the wait is over.';
     document.querySelector('.countdown footer p').textContent = 'right where we belong. together.';
-    document.querySelector('#timer-heading').setAttribute('role', 'status');
+    document.querySelector('#arrival-status').textContent = 'The wait is over. Finally, come here.';
   }
 }
 

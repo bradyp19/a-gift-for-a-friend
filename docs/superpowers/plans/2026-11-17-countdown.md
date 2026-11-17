@@ -19,6 +19,8 @@
 - Background-tab time drift: recompute from Date.now on every update.
 
 ## Tasks
-- [ ] 1. Add `countdown.mjs` exporting `remaining(now)` and `TARGET`; test UTC target, one-day breakdown, fractional final second, and expiry. Commit.
-- [ ] 2. Add `index.html`, `styles.css`, `app.mjs`, `art.mjs`: intro, countdown, responsive layout, pixel sprites, silent bark, storage guard, reduced motion. Check in browser and commit.
-- [ ] 3. Review final implementation; document local use in README; run tests and syntax checks; commit. Create private GitHub repository and push when authenticated.
+- [x] 1. Add `countdown.mjs` exporting `remaining(now)` and `TARGET`; test UTC target, one-day breakdown, fractional final second, and expiry. Commit.
+- [x] 2. Add `index.html`, `styles.css`, `app.mjs`, `art.mjs`: intro, countdown, responsive layout, pixel sprites, silent bark, storage guard, reduced motion. Check in browser and commit.
+- [x] 3. Review final implementation; document local use in README; run tests and syntax checks; commit. Create private GitHub repository and push when authenticated.
+
+Verification: 4 Node tests pass; JS syntax checks pass. Live desktop intro and countdown inspected. Final independent review found text contrast and live announcement concerns; both corrected. Shell network and server binding are restricted, so remote commits were created through the GitHub connector.

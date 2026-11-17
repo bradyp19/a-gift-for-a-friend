@@ -21,3 +21,9 @@ node --test
 ```
 
 The intro plays once per browser, remembered after it finishes. Clearing this site's local storage resets it. Reduced-motion preferences skip the intro animation. No audio, analytics, or external requests.
+
+## Live site
+
+https://bradyp19.github.io/a-gift-for-a-friend/
+
+GitHub Pages deploys the root of `main` after each commit.
