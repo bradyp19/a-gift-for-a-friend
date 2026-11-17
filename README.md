@@ -1,11 +1,23 @@
 # A gift for a friend
 
-A lightweight countdown for Angie, with mango boba and an encouraging corgi.
+A tiny countdown for Angie, with mango boba and a very encouraging corgi.
 
-Target: November 18, 2026, 8 p.m. Eastern.
+Target: **November 18, 2026, 8:00 p.m. Eastern**.
 
-Run locally: `python3 -m http.server 8080`, then open http://localhost:8080.
+Built with plain HTML, CSS, and JavaScript. No installation or build step.
 
-Tests: `node --test`.
+## Run locally
 
-Plain HTML, CSS, and JavaScript. No build step, audio, analytics, or runtime dependencies.
+```sh
+python3 -m http.server 8080
+```
+
+Open http://localhost:8080. ES modules require HTTP rather than opening index.html directly.
+
+## Test
+
+```sh
+node --test
+```
+
+The intro plays once per browser, remembered after it finishes. Clearing this site's local storage resets it. Reduced-motion preferences skip the intro animation. No audio, analytics, or external requests.
